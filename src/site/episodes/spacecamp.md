@@ -6,4 +6,4 @@ image: spacecamp
 tags: ['bonus', 'episodes']
 season: Bonus
 ---
-<iframe src="https://open.spotify.com/embed-podcast/episode/2WDN6tjYSUbj5gigCada0t" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: SpaceCamp" src="https://open.spotify.com/embed-podcast/episode/2WDN6tjYSUbj5gigCada0t" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

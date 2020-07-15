@@ -6,4 +6,4 @@ image: akira
 tags: ['dumb', 'episodes']
 season: Our Dumb Decade
 ---
-<iframe src="https://open.spotify.com/embed-podcast/episode/1rqk4JedhF1xrJK2TKDeWw" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Akira" src="https://open.spotify.com/embed-podcast/episode/1rqk4JedhF1xrJK2TKDeWw" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

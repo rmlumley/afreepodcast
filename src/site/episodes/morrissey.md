@@ -11,4 +11,4 @@ season: Problematic Faves
 <li><a href="https://spoti.fi/2Z92noX">Joe's Playlist</a></li>
 <li><a href="https://bit.ly/2BaROcT">Joe's Corresponding Liner Notes</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/6wdYEEbbrTRMCgITF53LSA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Morrissey" src="https://open.spotify.com/embed-podcast/episode/6wdYEEbbrTRMCgITF53LSA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

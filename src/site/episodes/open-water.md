@@ -12,4 +12,4 @@ season: Fears & Phobias
 <li><a href="https://en.wikipedia.org/wiki/D._B._Cooper">D.B. Cooper - Wikipedia</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370">Malaysia Airlines Flight 370 - Wikipedia</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/2bMVgHFEBdb5Z3lXTzdttX" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Open Water" src="https://open.spotify.com/embed-podcast/episode/2bMVgHFEBdb5Z3lXTzdttX" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

@@ -13,4 +13,4 @@ season: Fears & Phobias
 <li><a href="https://www.youtube.com/watch?v=e7f2LZK3zsY">Pet Sematary music video</a></li>
 <li><a href="https://www.youtube.com/watch?v=79fzeNUqQbQ">Like a Prayer music video</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/6mCQH7KeBpdXT66gmrGurn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Pet Sematary" src="https://open.spotify.com/embed-podcast/episode/6mCQH7KeBpdXT66gmrGurn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

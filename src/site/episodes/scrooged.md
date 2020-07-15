@@ -6,4 +6,4 @@ image: scrooged
 tags: ['bonus', 'episodes']
 season: Bonus
 ---
-<iframe src="https://open.spotify.com/embed-podcast/episode/4Vdbcs4ID4VD5nOuT8Yv93" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Scrooged" src="https://open.spotify.com/embed-podcast/episode/4Vdbcs4ID4VD5nOuT8Yv93" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

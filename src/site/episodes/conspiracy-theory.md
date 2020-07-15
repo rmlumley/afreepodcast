@@ -15,4 +15,4 @@ season: Summer of 1997
 	<li><a href="https://ultimateclassicrock.com/supertramp-breakfast-in-america-911-conspiracy-theory/">Supertramp and 9/11</a></li>
 	<li><a href="https://www.thedailybeast.com/what-is-qanon-the-craziest-theory-of-the-trump-era-explained">What Is QAnon? The Craziest Theory of the Trump Era, Explained</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/0ILt9tFf9ZmWma3bhMsRN6" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Conspiracy Theory" src="https://open.spotify.com/embed-podcast/episode/0ILt9tFf9ZmWma3bhMsRN6" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

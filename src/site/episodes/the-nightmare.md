@@ -12,4 +12,4 @@ season: Fears & Phobias
 <li><a href="https://www.youtube.com/watch?v=WM8bTdBs-cw">One - Metallica</a></li>
 <li><a href="https://www.amazon.com/Johnny-Got-His-Gun-Novel/dp/0553274325">Johnny Got His Gun - Dalton  Trumbo</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/2oGJFt5SBEdzFPeTYe68CS" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: The Nightmare" src="https://open.spotify.com/embed-podcast/episode/2oGJFt5SBEdzFPeTYe68CS" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

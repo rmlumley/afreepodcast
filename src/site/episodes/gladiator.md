@@ -11,4 +11,4 @@ season: Failsons
 <li><a href="https://drive.google.com/file/d/1ssD94Yx1OM2r3inUV9YAy5E9Qr0Kg3PN/view?usp=sharing">Gladiator 2 Script</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Commodus">Commodus Wiki</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/0ZzrrTxb5p2OScZ0MASMhW" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Gladiator" src="https://open.spotify.com/embed-podcast/episode/0ZzrrTxb5p2OScZ0MASMhW" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

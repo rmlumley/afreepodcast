@@ -6,4 +6,4 @@ image: thegraduate
 tags: ['failsons', 'episodes']
 season: Failsons
 ---
-<iframe src="https://open.spotify.com/embed-podcast/episode/6DZS05bydvafv9oGIi6phL" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: The Graduate" src="https://open.spotify.com/embed-podcast/episode/6DZS05bydvafv9oGIi6phL" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

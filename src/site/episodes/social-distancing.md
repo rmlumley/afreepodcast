@@ -17,4 +17,4 @@ https://piratebay-proxylist.com/">Pirate Bay</a></li>
 <li><a href="https://civilization.com/">Civilization VI</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Shoah_(film)">Shoah</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/5mnR1DpRVkJYrsrAXOyv2T" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: Guide to Social Distancing" src="https://open.spotify.com/embed-podcast/episode/5mnR1DpRVkJYrsrAXOyv2T" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

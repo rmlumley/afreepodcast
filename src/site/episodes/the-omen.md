@@ -10,4 +10,4 @@ season: Failsons
 <ul class="links">
 <li><a href="https://www.youtube.com/watch?v=82O8vWDSnoI">Robert E.G. Black's "All for You" Mashup</a></li>
 </ul>
-<iframe src="https://open.spotify.com/embed-podcast/episode/4tcRWy9iLy1WZjU9kfUmb3" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Spotify: The Omen" src="https://open.spotify.com/embed-podcast/episode/4tcRWy9iLy1WZjU9kfUmb3" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
