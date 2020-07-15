@@ -9,11 +9,38 @@ templateEngineOverride: njk, md
 </p>
 <main>
   {{ content | safe }}
-  <h3>Other episodes from this season:</h3>
+  <h2>{{ season }}</h2>
   <ul class="podcasts">
-  {%- for page in collections.problematic -%}
+  {% if 'Problematic Faves' in season %}
+    {%- for page in collections.problematic -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
-  {%- endfor -%}
+    {%- endfor -%}
+  {% endif %}
+  {% if 'Our Dumb Decade' in season %}
+    {%- for page in collections.dumb -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
+  {% if 'Summer of 1997' in season %}
+    {%- for page in collections.summer1997 -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
+  {% if 'Fears & Phobias' in season %}
+    {%- for page in collections.fears -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
+  {% if 'Failsons' in season %}
+    {%- for page in collections.failsons -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
+  {% if 'Bonus' in season %}
+    {%- for page in collections.bonus -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   </ul>
   <br class="clear" />
   <div class="footnote flex-grid">

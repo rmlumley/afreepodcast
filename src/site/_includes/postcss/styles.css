@@ -174,7 +174,19 @@ footer {
     border-bottom: solid 1px $text-color;
   }
 }
-
+.callout {
+  margin-top: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+  background-color: $accent-color;
+  color: white;
+  a {
+    border-bottom: 1px solid white;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
 .podcasts {
   list-style-type: none;
   padding: 0;

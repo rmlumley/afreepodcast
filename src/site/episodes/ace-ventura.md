@@ -4,5 +4,6 @@ subtitle: Our new season covers "Problematic Faves" and begins with Rob's select
 date: 2020-04-07
 image: aceventura
 tags: ['problematic', 'episodes']
+season: Problematic Faves
 ---
 <iframe src="https://open.spotify.com/embed-podcast/episode/0NgHmXp0UpcRcn3hmnwvkM" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

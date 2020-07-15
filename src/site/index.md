@@ -10,6 +10,7 @@ layout: layouts/base.njk
 	<li><a href="https://open.spotify.com/show/27S5iSHqJsA5Qqe2lti6M2?si=AM4DBHZwRHOkRwxvJhwA9A">Spotify</a></li>
 	<li><a href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;apn=com.google.android.music&amp;link=https://play.google.com/music/m/Ikvndewo5k2m4rcda4ymqbpa2mm?t%3DA_Free_Podcast%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16">Google Play</a></li>
 	<li><a href="https://overcast.fm/itunes1434346405/a-free-podcast">Overcast</a></li>
+	<li><a href="https://www.stitcher.com/podcast/titanic-minute/a-free-podcast">Stitcher</a></li>
 	<li><a href="https://radiopublic.com/the-midnight-boys-present-a-free-60nRqb">RadioPublic</a></li>
 	<li><a href="https://tunein.com/podcasts/Film--TV-News/A-Free-Podcast-p1152490/">TuneIn</a></li>
 	<li><a href="http://afreepodcast.cast.rocks/">Stream Online</a></li>

@@ -4,6 +4,7 @@ subtitle: Joe takes the group on a musical detour and explains his love of Morri
 date: 2020-06-30
 image: morrissey
 tags: ['problematic', 'episodes']
+season: Problematic Faves
 ---
 <h4>Links:</h4>
 <ul class="links">
