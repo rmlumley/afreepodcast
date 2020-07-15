@@ -1,33 +1,34 @@
 ---
-title: Get Yours
+title: About
 layout: layouts/base.njk
-subtitle: Clone and deploy your own EleventyOne starter template.
+subtitle: A Free Podcast is a podcast by The Midnight Boys that looks at the big themes in movies. Like why spiders are scary and how cool 1997 was.
 ---
 
-## Hosting
+## What is this show all about?
 
-This site is deployed by, and hosted by [Netlify](https://www.netlify.com).
+It's a movie podcast. Each season we look at a different set of movies. Season 1 was about cinematic failsons. Season 2 is about fears and phobias.
 
-<div class="nakedLink">
+## Who are the Midnight Boys?
 
-Latest deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/eleventyone/deploys)
+A nickname for the hosts. They previously hosted <a href="http://tombstoneminute.com/">Tombstone Minute</a> and <a href="http://titanicminute.com/">Titanic Minute</a>. They are now working on <a href="http://forrestgumpminute.com/">Forrest Gump Minute</a>.
 
-</div>
+During college, we would stay up until all hours of the morning watching movies. This led to Rob’s girlfriend (now wife) dubbing us the Midnight Boys.
 
-## One-click deploy
+Joe is a respected educator. Rob is a guy that builds websites. Duff is a public servant/moocher. We attended UW-Madison together some 15 years ago and decided there aren’t enough podcasts of guys dissecting mainstream entertainment.
 
-To get your own instance of this [Eleventy](https://11ty.io) starter project cloned and deploying to [Netlify](https://www.netlify.com) very quickly, just click the button below and follow the instructions.
+## How can I support the show?
+We have a patreon! You <a href="http://patreon.com/themidnightboys/">can sign up</a> and for as little as $2 get access to a monthly patreons only show called A Paid Podcast.
 
-<div class="nakedLink">
+We also have a <a href="https://www.facebook.com/groups/afplisteners">Facebook group</a> you can join to interact with the hosts and other fans of the show.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventyone)
+## Cool cover art. Who made it?
 
-</div>
+That is all the work of <a href="http://www.alinaruppel.com/">Alina Ruppel</a>. She does good work.
 
-## 👆 Wait, what happens when I click that button?
+## What's with the theme music?
 
-Good question. Here's what it will do...
+The AFP theme is taken from a <a href="https://www.youtube.com/watch?v=iEMucxvcMcY">General Cinema bumper</a> that ran in the late ’80s and early ’90s. It was also parodied on <em><a href="https://www.youtube.com/watch?v=CnhFhd1nGlA">Mystery Science Theater 3000</a></em>.
 
-1. Netlify will clone the [git repository]({{pkg.repository.url}}) of this project into your GitHub account. You will be asked for the required permissions to add the repo for you.
-2. They'll create a new site for you in Netlify, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
-3. That's it really.
+## How do I listen?
+Take a look at our <a href="/">homepage</a> to stream the most recent episode or see a bunch of podcast services our feed is hosted at.
+

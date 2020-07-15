@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <title>{{ title }}</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
@@ -16,7 +17,6 @@
 
     {% set js %}
       {% include "js/core.js" %}
-      {% include "js/hello.js" %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
 

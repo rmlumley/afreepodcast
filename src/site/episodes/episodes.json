@@ -1,0 +1,5 @@
+{
+  "layout" : "layouts/episodes.md",
+  "tags" : "episodes",
+  "templateEngineOverride": "njk,md"
+}

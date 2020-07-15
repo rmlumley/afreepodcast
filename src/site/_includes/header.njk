@@ -1,12 +1,17 @@
 <header>
+  
   <ul class="nav">
     <li>
-      <a href="/">home<small>where the heart is</small></a>
+      <a href="/">home<small>a free podcast</small></a>
     </li>
     <li>
-      <a href="/about">about<small>all about this</small></a>
+      <a href="/about">about<small>what is this?</small></a>
+    </li>
+    <li>
+      <a href="/episodes">episodes<small>podcast archive</small></a>
     </li>
   </ul>
   <h1>{{ title }}</h1>
+  {%- if image %}<img class="hero" src="/images/{{ image | safe }}-thumb.jpg" alt="{{ title }}" />{% endif %}
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 </header>
