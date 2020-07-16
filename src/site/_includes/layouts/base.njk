@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    {% if title !== 'A Free Podcast' %}
+    <title>{{ title }} | A Free Podcast</title>
+    {% else %}
     <title>{{ title }}</title>
+    {% endif %}
     <meta name="og:image" content="https://afreepodcast.com/images/social.png">
     <meta name="Description" content="{{ subtitle }}">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
