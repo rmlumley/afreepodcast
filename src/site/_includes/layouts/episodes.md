@@ -11,6 +11,11 @@ templateEngineOverride: njk, md
   {{ content | safe }}
   <h2>{{ season }}</h2>
   <ul class="podcasts">
+  {% if 'Erotic Thrillers' in season %}
+    {%- for page in collections.erotic -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   {% if 'Problematic Faves' in season %}
     {%- for page in collections.problematic -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
