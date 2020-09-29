@@ -6,7 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
-	<li><a href="erotic">Erotic Thrillers</a></li>
+	<li><a href="#erotic">Erotic Thrillers</a></li>
 	<li><a href="#problematic">Problematic Faves</a></li>
 	<li><a href="#dumb">Our Dumb Decade</a></li>
 	<li><a href="#summer1997">Summer of 1997</a></li>
