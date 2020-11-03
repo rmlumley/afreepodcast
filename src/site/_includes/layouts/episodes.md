@@ -51,6 +51,11 @@ templateEngineOverride: njk, md
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {%- endfor -%}
   {% endif %}
+  {% if 'Patreon' in season %}
+    {%- for page in collections.patreon -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   </ul>
   <br class="clear" />
   <div class="footnote flex-grid">

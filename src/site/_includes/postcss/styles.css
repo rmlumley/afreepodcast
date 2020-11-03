@@ -213,9 +213,6 @@ footer {
   @media (min-width: $mid) {
     flex: 0 45%;
   }
-  @media (min-width: $wide) {
-    flex: 0 30%;
-  }
 }
 .episode {
   border-radius: 10px;

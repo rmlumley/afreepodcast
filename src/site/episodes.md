@@ -14,13 +14,14 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#fears">Fears & Phobias</a></li>
 	<li><a href="#failsons">Failsons</a></li>
 	<li><a href="#bonus">Bonus</a></li>
+	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
 <h2 id="monster" class="season">Monster Rehash</h2>
 Throughout the 1990s, a number of Universal Picture's classic monsters were re-imagined. The quality of results were varied.
 <div class="flex-grid">
 	{%- for page in collections.monster -%}
-	  <div class="episode">
+	  <div class="episode {{ page.data.paid }}">
 	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
 	  	<div>
 		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
@@ -34,7 +35,7 @@ Throughout the 1990s, a number of Universal Picture's classic monsters were re-i
 For 15 years this subgenre was a force at the Box Office and dominated video rentals.
 <div class="flex-grid">
 	{%- for page in collections.erotic -%}
-	  <div class="episode">
+	  <div class="episode {{ page.data.paid }}">
 	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
 	  	<div>
 		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
@@ -118,6 +119,20 @@ Various one-off episodes we have made that don't really fit into any of the abov
 <div class="flex-grid">
 	{%- for page in collections.bonus -%}
 	  <div class="episode">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
+<h2 id="patreon" class="season">Patreon</h2>
+This is available on our <a href="https://patreon.com/themidnightboys/">Patreon feed</a>. You can unlock all of our patreon episodes for $2.
+<div class="flex-grid">
+	{%- for page in collections.patreon -%}
+	  <div class="episode {{ page.data.paid }}">
 	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
 	  	<div>
 		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
