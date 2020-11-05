@@ -47,12 +47,12 @@ templateEngineOverride: njk, md
     {%- endfor -%}
   {% endif %}
   {% if 'Bonus' in season %}
-    {%- for page in collections.bonus -%}
+    {%- for page in collections.bonus | reverse -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {%- endfor -%}
   {% endif %}
   {% if 'Patreon' in season %}
-    {%- for page in collections.patreon -%}
+    {%- for page in collections.patreon | reverse-%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {%- endfor -%}
   {% endif %}
