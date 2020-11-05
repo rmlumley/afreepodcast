@@ -117,7 +117,7 @@ Let's talk about failsons. These are the boys born on 3rd base but still unable 
 <h2 id="bonus" class="season">Bonus</h2>
 Various one-off episodes we have made that don't really fit into any of the above seasons.
 <div class="flex-grid">
-	{%- for page in collections.bonus -%}
+	{%- for page in collections.bonus | reverse -%}
 	  <div class="episode">
 	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
 	  	<div>
@@ -131,7 +131,7 @@ Various one-off episodes we have made that don't really fit into any of the abov
 <h2 id="patreon" class="season">Patreon</h2>
 This is available on our <a href="https://patreon.com/themidnightboys/">Patreon feed</a>. You can unlock all of our patreon episodes for $2.
 <div class="flex-grid">
-	{%- for page in collections.patreon -%}
+	{%- for page in collections.patreon | reverse -%}
 	  <div class="episode {{ page.data.paid }}">
 	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
 	  	<div>
