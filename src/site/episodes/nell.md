@@ -1,6 +1,6 @@
 ---
 title: Nell
-subtitle: We talk about the extremely strange production of Robert Altman's Popeye. We also dive into the 70s auteurs and the paths the rest of their careers took.
+subtitle: We did it. We talked about Nell. If you've never seen it, a quick serch on YouTube will give you all the clips you need.
 date: 2020-05-05
 image: nell
 tags: ['patreon', 'episodes']
