@@ -15,23 +15,23 @@
     "url": "https://github.com/philhawksworth/eleventyone"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "autoprefixer": "^9.6.0",
-    "axios": "^0.19.0",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.19.2",
     "cssnano": "^4.1.10",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
-    "luxon": "^1.16.0",
-    "postcss": "^7.0.17",
+    "luxon": "^1.25.0",
+    "postcss": "^7.0.35",
     "postcss-color-mix": "^1.1.0",
     "postcss-comment": "^2.0.0",
     "postcss-import": "^12.0.1",
-    "postcss-mixins": "^6.2.1",
+    "postcss-mixins": "^6.2.3",
     "postcss-simple-vars": "^5.0.2",
     "precss": "^4.0.0",
-    "uglify-js": "^3.6.0",
-    "xml2js": "^0.4.19"
+    "uglify-js": "^3.12.0",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "cross-env": "5.2.0"

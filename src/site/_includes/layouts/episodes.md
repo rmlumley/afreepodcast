@@ -11,6 +11,11 @@ templateEngineOverride: njk, md
   {{ content | safe }}
   <h2>{{ season }}</h2>
   <ul class="podcasts">
+  {% if 'Rock Docs' in season %}
+    {%- for page in collections.rock -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   {% if 'Monster Rehash' in season %}
     {%- for page in collections.monster -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
