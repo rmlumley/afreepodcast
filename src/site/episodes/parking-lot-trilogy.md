@@ -1,6 +1,6 @@
 ---
 title: Parking Lot Trilogy
-subtitle: We talk about Heavy Metal Parking Log, Neil Diamond Parking Lot & Harry Potter Parking Lot. We deep dive into the nature of fandom. Also, some surprising takes on Judas Priest, Neil Diamond and Harry Potter.
+subtitle: We talk about Heavy Metal Parking Lot, Neil Diamond Parking Lot & Harry Potter Parking Lot. We deep dive into the nature of fandom. Also, some surprising takes on Judas Priest, Neil Diamond and Harry Potter.
 date: 2020-12-15
 image: parkinglot
 tags: ['rock', 'episodes']
