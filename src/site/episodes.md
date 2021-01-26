@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#bond">Bond for BAHND</a></li>
 	<li><a href="#rock">Rock Docs</a></li>
 	<li><a href="#monster">Monster Rehash</a></li>
 	<li><a href="#erotic">Erotic Thrillers</a></li>
@@ -18,6 +19,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="bond" class="season">Bond for BAHND</h2>
+The Midnight Boys go through a cultural blindspot for them. We pick a movie from each Bond actor and determine their BAHND rating.
+<div class="flex-grid">
+	{%- for page in collections.bond -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="rock" class="season">Rock Docs</h2>
 Our season on Rock Docs covers some notable music documentaries to help fill the live performance void in our lives.
 <div class="flex-grid">
