@@ -6,7 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
-	<li><a href="#bond">Bond for BAHND</a></li>
+	<li><a href="#bond">Bond for B.A.H.N.D</a></li>
 	<li><a href="#rock">Rock Docs</a></li>
 	<li><a href="#monster">Monster Rehash</a></li>
 	<li><a href="#erotic">Erotic Thrillers</a></li>
@@ -19,8 +19,8 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
-<h2 id="bond" class="season">Bond for BAHND</h2>
-The Midnight Boys go through a cultural blindspot for them. We pick a movie from each Bond actor and determine their BAHND rating.
+<h2 id="bond" class="season">Bond for B.A.H.N.D</h2>
+The Midnight Boys go through a cultural blindspot for them. We pick a movie from each Bond actor and determine their B.A.H.N.D rating.
 <div class="flex-grid">
 	{%- for page in collections.bond -%}
 	  <div class="episode {{ page.data.paid }}">

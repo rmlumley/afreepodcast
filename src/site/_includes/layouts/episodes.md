@@ -11,7 +11,7 @@ templateEngineOverride: njk, md
   {{ content | safe }}
   <h2>{{ season }}</h2>
   <ul class="podcasts">
-  {% if 'Bond for BAHND' in season %}
+  {% if 'Bond for B.A.H.N.D' in season %}
     {%- for page in collections.bond -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {%- endfor -%}
