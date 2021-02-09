@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     {% if title !== 'A Free Podcast' %}
-    <title>{{ title }} | A Free Podcast</title>
+      <title>{{ title }} | A Free Podcast</title>
     {% else %}
-    <title>{{ title }}</title>
+      <title>{{ title }}</title>
     {% endif %}
-    <meta name="og:image" content="https://afreepodcast.com/images/social.png">
+    {% if image %}
+      <meta name="og:image" content="https://afreepodcast.com/images/{{image}}-thumb.jpg">
+    {% else %}
+      <meta name="og:image" content="https://afreepodcast.com/images/social-thumb.jpg">
+    {% endif %}
     <meta name="Description" content="{{ subtitle }}">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <script rel="preconnect" async src="https://www.googletagmanager.com/gtag/js?id=UA-4817551-8"></script>

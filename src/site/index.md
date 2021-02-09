@@ -1,5 +1,6 @@
 ---
 title: A Free Podcast
+image: social
 subtitle: The Midnight Boys present a podcast that looks at the big themes in movies. Like why spiders are scary and how cool 1997 was.
 layout: layouts/base.njk
 ---
