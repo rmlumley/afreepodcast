@@ -4,7 +4,7 @@ subtitle: We start our Bond season with a non-Eon canon film  that is an absolut
 date: 2021-01-26
 image: casinoroyale1967
 tags: ['bond', 'patreon', 'episodes']
-season: Bond for B.A.H.N.D
+season: Bond by B.A.H.N.D
 paid: patreon
 ---
 <div class="callout patreon">

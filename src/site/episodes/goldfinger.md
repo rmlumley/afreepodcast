@@ -4,6 +4,6 @@ subtitle: This season we'll examine every James Bond actor. We start off with wh
 date: 2021-02-09
 image: goldfinger
 tags: ['bond', 'episodes']
-season: Bond for B.A.H.N.D
+season: Bond by B.A.H.N.D
 ---
 <iframe src="https://open.spotify.com/embed-podcast/episode/5KHmbcDbmCrk4Lbwk5Xk9W" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
