@@ -280,3 +280,17 @@ footer {
 .links {
   margin-bottom: 2rem;
 }
+.data {
+  margin-bottom: 2rem;
+  td, th {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid $text-color;
+  text-align: center;
+  padding: 5px;
+}
+th {
+  background: $accent-color;
+  border-color: $text-color;
+}
+}
