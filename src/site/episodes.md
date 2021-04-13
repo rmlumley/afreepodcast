@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#attack">When Movies Attack</a></li>
 	<li><a href="#bond">Bond by B.A.H.N.D</a></li>
 	<li><a href="#rock">Rock Docs</a></li>
 	<li><a href="#monster">Monster Rehash</a></li>
@@ -19,6 +20,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="attack" class="season">When Movies Attack</h2>
+Sometimes movie productions are so troubled that they overshadow the actual films being made. This season is on WHEN MOVIES ATTACK!
+<div class="flex-grid">
+	{%- for page in collections.attack -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="bond" class="season">Bond by B.A.H.N.D</h2>
 The Midnight Boys go through a cultural blindspot for them. We pick a movie from each Bond actor and determine their B.A.H.N.D rating.
 <div class="flex-grid">
