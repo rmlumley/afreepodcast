@@ -294,3 +294,6 @@ th {
   border-color: $text-color;
 }
 }
+.resources {
+  margin-bottom: 2rem;
+}
