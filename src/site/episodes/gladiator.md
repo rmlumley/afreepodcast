@@ -1,6 +1,6 @@
 ---
 title: Gladiator
-subtitle: Join us as we dig into the original adaptation of Stephen King’s Pet Sematary. We chat about frozen hamsters, a pit of dead dogs and the Ramones.
+subtitle: We discuss arguably the greatest fail-son of all - Emperor Lucius Aurelius Commodus. We’ll stumble through Roman history, theorize about Commodus if he were alive today and salivate over Nick Cave's (yes, *that* Nick Cave) rejected sequel script. 
 date: 2018-11-13
 image: gladiator
 tags: ['failsons', 'episodes']
