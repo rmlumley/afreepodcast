@@ -1,5 +1,5 @@
 ---
-title: A Free Podcast
+title: 'The Midnight Boys Present: A Free Podcast'
 image: social
 subtitle: The Midnight Boys present a podcast that looks at the big themes in movies. Like why spiders are scary and how cool 1997 was.
 layout: layouts/base.njk
@@ -16,5 +16,10 @@ layout: layouts/base.njk
 	<li><a href="https://tunein.com/podcasts/Film--TV-News/A-Free-Podcast-p1152490/">TuneIn</a></li>
 	<li><a href="http://afreepodcast.cast.rocks/">Stream Online</a></li>
 	<li><a href="http://afreepodcast.cast.rocks/feed.xml">XML</a></li>
+</ul>
+<h2 class="clear" style="padding-top: 2rem;">Join/Support:</h2>
+<ul class="podcasts">
+<li><a href="https://patreon.com/themidnightboys/">Patreon</a></li>
+<li><a href="https://www.facebook.com/groups/234075713939781">Facebook Listener's Group</a></li>
 </ul>
 <br class="clear" />
