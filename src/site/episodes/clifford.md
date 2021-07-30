@@ -9,7 +9,8 @@ paid: patreon
 ---
 <h2>Notes</h2>
 <ul class="resources">
-<li><a href="https://www.theringer.com/movies/2020/11/12/21560294/unstoppable-tony-scott-legacy-making-of-10th-anniversary">The Ringer: ‘Speed’ on Speed: The Making of ‘Unstoppable,’ 10 Years Later</a></li>
+<li><a href="https://www.vulture.com/article/clifford-martin-short-oral-history.html">Vulture: An Oral History of Martin Short's 1994 Movie 'Clifford'</a></li>
+<li><a href="https://www.rogerebert.com/reviews/clifford-1994">Roger Ebert: Clifford</a></li>
 </ul>
 
 <div class="callout patreon">
