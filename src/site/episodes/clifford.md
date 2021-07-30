@@ -11,6 +11,7 @@ paid: patreon
 <ul class="resources">
 <li><a href="https://www.vulture.com/article/clifford-martin-short-oral-history.html">Vulture: An Oral History of Martin Short's 1994 Movie 'Clifford'</a></li>
 <li><a href="https://www.rogerebert.com/reviews/clifford-1994">Roger Ebert: Clifford</a></li>
+<li><a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/EndangeredSouffle">TV Tropes: Endangered Souffle</a></li>
 </ul>
 
 <div class="callout patreon">
