@@ -1,6 +1,6 @@
 ---
 title: Three Men and a Baby
-subtitle: We start our "How to Be a Dad" series early with a discussion of a deeply strange movie, Clifford. Ever want to see a 10 year old played by a 40 year old - then this is the perfect movie for you. We also talk about some of our favorite comedies that no one else likes.
+subtitle: Joe is now a father so we are ready to give our expert advice on How to Be a Dad. We come up with the Tony Danza line and dig into Ted Danson's past.
 date: 2021-08-17
 image: 3menandababy
 tags: ['dad', 'episodes']
