@@ -5,6 +5,5 @@ date: 2021-08-24
 image: parenthood
 tags: ['dad', 'episodes']
 season: How to Be a Dad
-paid: patreon
 ---
 <iframe src="https://open.spotify.com/embed/episode/387NdfGhgYVHjK8R1bP2n0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
