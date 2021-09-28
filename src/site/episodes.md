@@ -17,6 +17,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#summer1997">Summer of 1997</a></li>
 	<li><a href="#fears">Fears & Phobias</a></li>
 	<li><a href="#failsons">Failsons</a></li>
+	<li><a href="#listener">Listener Request</a></li>
 	<li><a href="#bonus">Bonus</a></li>
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
@@ -164,6 +165,20 @@ We discuss movies that explore common fears & phobias.<div class="flex-grid">
 <h2 id="failsons" class="season">Failsons</h2>
 Let's talk about failsons. These are the boys born on 3rd base but still unable to get home.<div class="flex-grid">
 	{%- for page in collections.failsons -%}
+	  <div class="episode">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
+<h2 id="listener" class="season">Listener Request</h2>
+Fans who sign up on our <a href="https://patreon.com/themidnightboys">Patreon</a> can pay for an individual episode that will release on A Free Podcast.
+<div class="flex-grid">
+	{%- for page in collections.listener | reverse -%}
 	  <div class="episode">
 	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
 	  	<div>

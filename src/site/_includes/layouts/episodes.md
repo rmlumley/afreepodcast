@@ -66,6 +66,11 @@ templateEngineOverride: njk, md
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {%- endfor -%}
   {% endif %}
+  {% if 'Listener Request' in season %}
+    {%- for page in collections.listener | reverse -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   {% if 'Bonus' in season %}
     {%- for page in collections.bonus | reverse -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
