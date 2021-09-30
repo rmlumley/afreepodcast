@@ -7,4 +7,8 @@ image: fpkk
 tags: ['listener', 'episodes']
 season: Listener Request
 ---
+<h2>Notes</h2>
+<ul class="resources">
+<li><a href="https://www.nytimes.com/2016/06/05/movies/sexploitation-films-short-on-good-taste-still-have-devotees.html">New York Times: Sexploitation Films, Short on Good Taste, Still Have Devotees</a></li>
+</ul>
 <iframe src="https://open.spotify.com/embed/episode/06kyWcreRAHYXYgz4dNKay" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
