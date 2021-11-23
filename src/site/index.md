@@ -9,7 +9,7 @@ layout: layouts/base.njk
 <ul class="podcasts">
 	<li><a href="https://itunes.apple.com/us/podcast/a-free-podcast/id1434346405">Apple Podcasts</a>
 	<li><a href="https://open.spotify.com/show/27S5iSHqJsA5Qqe2lti6M2?si=AM4DBHZwRHOkRwxvJhwA9A">Spotify</a></li>
-	<li><a href="https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;apn=com.google.android.music&amp;link=https://play.google.com/music/m/Ikvndewo5k2m4rcda4ymqbpa2mm?t%3DA_Free_Podcast%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16">Google Play</a></li>
+	<li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9jYS1ucy0xLmJ1bGtzdG9yYWdlLmNhL3YxL0FVVEhfMGQwOWM4NzU0OTA4NGY0YmE0YWQ0YTllODA3ZDBkNzYvNzA2My9mZWVkcy9HMkZLQS54bWw_dGVtcF91cmxfc2lnPTJjNGRiZWZjMjhlMTY4ODVlN2E3YzE4MmE4MGI0ZDAzMDU1ZWU3MDAmdGVtcF91cmxfZXhwaXJlcz0xODU5NjAyMjc4JmlubGluZQ">Google Podcasts</a></li>
 	<li><a href="https://overcast.fm/itunes1434346405/a-free-podcast">Overcast</a></li>
 	<li><a href="https://www.stitcher.com/podcast/titanic-minute/a-free-podcast">Stitcher</a></li>
 	<li><a href="https://radiopublic.com/the-midnight-boys-present-a-free-60nRqb">RadioPublic</a></li>
