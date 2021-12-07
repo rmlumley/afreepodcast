@@ -1,6 +1,6 @@
 ---
 title: "Suburban Commando"
-subtitle: "It's time for Hulk Hogan. We talk about Suburban Commando which also stars Christopher Lloyd and Shelley Duval. We talk about Hogan's career and we pick our favorite Hogan lies."
+subtitle: "It's time for Hulk Hogan. We talk about Suburban Commando which also stars Christopher Lloyd and Shelley Duvall. We talk about Hogan's career and we pick our favorite Hogan lies."
 date: 2021-12-07
 image: suburbancommando
 tags: ['wrestling', 'episodes']
