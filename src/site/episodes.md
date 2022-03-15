@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#online">Goin' Online</a></li>
 	<li><a href="#wrestling">Wrestling with Hollywood</a></li>
 	<li><a href="#dad">How to Be a Dad</a></li>
 	<li><a href="#attack">When Movies Attack</a></li>
@@ -23,6 +24,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="online" class="season">Goin' Online</h2>
+Fire up your dial up modem and join us as we look at movies that tackled the world wide web.
+<div class="flex-grid">
+	{%- for page in collections.online -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="wrestling" class="season">Wrestling with Hollywood</h2>
 In the past 40 years, various professional wrestlers have made the leap to Hollywood. We look at a movie from each and talk about their careers in and out of the ring.
 <div class="flex-grid">
