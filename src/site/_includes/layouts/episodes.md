@@ -11,6 +11,11 @@ templateEngineOverride: njk, md
   {{ content | safe }}
   <h2>{{ season }}</h2>
   <ul class="podcasts">
+  {% if 'Work Sucks' in season %}
+    {%- for page in collections.work -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   {% if 'Goin\' Online' in season %}
     {%- for page in collections.online -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
