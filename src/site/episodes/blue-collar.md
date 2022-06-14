@@ -6,4 +6,4 @@ image: bluecollar
 tags: ['work', 'episodes']
 season: Work Sucks
 ---
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/27S5iSHqJsA5Qqe2lti6M2?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5GdkCb2Gx1DJdr7Qhrs4kp?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
