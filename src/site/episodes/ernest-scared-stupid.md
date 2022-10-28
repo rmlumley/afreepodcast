@@ -7,6 +7,10 @@ tags: ['patreon', 'episodes']
 season: Patreon
 paid: patreon
 ---
+<h2>Notes</h2>
+<ul class="resources">
+<li><a href="https://www.youtube.com/watch?v=_TMfoSkOAag">I'm Drinking Milk! - YouTube</a></li>
+</ul>
 <div class="callout patreon">
 This is available on our Patreon feed. You can unlock all of our patreon episodes for $2.
 
