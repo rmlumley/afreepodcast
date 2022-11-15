@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#twilight">Another Dimension</a></li>
 	<li><a href="#work">Work Sucks</a></li>
 	<li><a href="#online">Goin' Online</a></li>
 	<li><a href="#wrestling">Wrestling with Hollywood</a></li>
@@ -25,6 +26,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="twilight" class="season">Another Dimension</h2>
+The Twilight Zone was one of the most influential shows in TV history. We look at the directors who moved to film either before or after their Twilight Zone work.
+<div class="flex-grid">
+	{%- for page in collections.twilight -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="work" class="season">Work Sucks</h2>
 We examine the pitfalls of work and ask, what are we doing?
 <div class="flex-grid">
