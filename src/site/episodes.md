@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#asseenontv">As Seen on TV</a></li>
 	<li><a href="#twilight">Another Dimension</a></li>
 	<li><a href="#work">Work Sucks</a></li>
 	<li><a href="#online">Goin' Online</a></li>
@@ -26,6 +27,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="asseenontv" class="season">As Seen on TV</h2>
+From the days when broadcast television cranked out movies of their own.
+<div class="flex-grid">
+	{%- for page in collections.asseenontv -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="twilight" class="season">Another Dimension</h2>
 The Twilight Zone was one of the most influential shows in TV history. We look at the directors who moved to film either before or after their Twilight Zone work.
 <div class="flex-grid">
