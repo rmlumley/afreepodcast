@@ -6,4 +6,8 @@ image: noonewouldtell
 tags: ['asseenontv', 'episodes']
 season: As Seen on TV
 ---
+<h2>Notes</h2>
+<ul class="resources">
+<li><a href="https://www.youtube.com/watch?v=zO4FzyXYEug">No One Would Tell - YouTube</a></li>
+</ul>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3NNyLnK1Pj1ldQLXtCoXPu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
