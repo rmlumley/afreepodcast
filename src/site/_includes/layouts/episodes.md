@@ -11,6 +11,11 @@ templateEngineOverride: njk, md
   {{ content | safe }}
   <h2>{{ season }}</h2>
   <ul class="podcasts">
+  {% if "Midlife Crisis" in season %}
+    {%- for page in collections.midlife -%}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+  {% endif %}
   {% if "Dealer's Choice" in season %}
     {%- for page in collections.dealer -%}
     <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>

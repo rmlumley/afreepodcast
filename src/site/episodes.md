@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#midlife">Midlife Crisis</a></li>
 	<li><a href="#dealer">Dealer's Choice</a></li>
 	<li><a href="#asseenontv">As Seen on TV</a></li>
 	<li><a href="#twilight">Another Dimension</a></li>
@@ -28,6 +29,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="midlife" class="season">Midlife Crisis</h2>
+We look at films that explore characters navigating the challenges of middle age. A subject we know nothing about, obviously.
+<div class="flex-grid">
+	{%- for page in collections.midlife -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="dealer" class="season">Dealer's Choice</h2>
 We pick a movie that the other two hosts have yet to see. 
 <div class="flex-grid">
