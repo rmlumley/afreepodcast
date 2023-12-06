@@ -1,6 +1,6 @@
 ---
 title: "Major League"
-subtitle: "A patron paid us to talk about a great movie! Cate Blanchett hive assemble! We recommend some other movies that Carol reminds us of. Also, Christmas as an adult can be sad sometimes! Finally, we talk about bad boyfriends."
+subtitle: "We have yet another patron. And another movie we all enjoy. We talk about out of shape baseball players, cheap MLB teams and what our walk-out songs would be. Finally, bring back slobs vs snobs."
 date: 2023-12-05
 image: majorleague
 tags: ['listener', 'episodes']
