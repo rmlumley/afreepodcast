@@ -6,6 +6,7 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 
 <h3>Jump to a Season:</h3>
 <ul class="podcasts">
+	<li><a href="#minnesota">Made in Minnesota</a></li>
 	<li><a href="#buddy">Buddy Cops</a></li>
 	<li><a href="#midlife">Midlife Crisis</a></li>
 	<li><a href="#dealer">Dealer's Choice</a></li>
@@ -30,6 +31,20 @@ subtitle: This is the full archive of episodes. We have them sorted by season, b
 	<li><a href="#patreon">Patreon</a></li>
 </ul>
 <br class="clear" />
+<h2 id="minnesota" class="season">Made in Minnesota</h2>
+We go back to Duff's home state and examine movies that were made in Minnesota.
+<div class="flex-grid">
+	{%- for page in collections.minnesota -%}
+	  <div class="episode {{ page.data.paid }}">
+	  	<a href="{{ page.url }}"><img src="/images/{{ page.data.image }}-thumb.jpg" alt="{{ page.data.title }}" /></a>
+	  	<div>
+		  	<h3><a href="{{ page.url }}">{{ page.data.title }}</a></h3>
+		  	<p>{{ page.data.subtitle }}</p>
+		    <span datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</span>
+	  </div>
+	 </div>
+	{%- endfor -%}
+</div>
 <h2 id="buddy" class="season">Buddy Cops</h2>
 We use our B.U.D. system to decide which Buddy Cop movie is the best.
 <div class="flex-grid">
