@@ -1,3 +1,6 @@
+// Removing since this caused issues in build
+
+ /*
 const axios  = require('axios');
 const toJSON = require('xml2js').parseString;
 const seed = require('../../../utils/save-seed.js');
@@ -25,3 +28,4 @@ module.exports = () => {
       });
   });
 };
+*/
