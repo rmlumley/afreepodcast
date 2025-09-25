@@ -28,6 +28,7 @@ npm install
 npm run seed
 
 # It will then be available locally for building with
+nvm use 22
 npm run start
 ```
 
