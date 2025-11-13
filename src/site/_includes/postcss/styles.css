@@ -227,6 +227,7 @@ footer {
   img {
     max-width: 100%;
     height: auto;
+	width: 405px;
   }
   div {
     padding: 1.5rem;
